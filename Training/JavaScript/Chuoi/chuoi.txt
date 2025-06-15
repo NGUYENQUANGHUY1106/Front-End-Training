@@ -1,0 +1,26 @@
+// LÀM VIỆC VỚI CHUỔI 
+Java Script string method
+1. Length : Đếm ký tự trong chuổi 
+2. Find index : tìm kiếm vị trí của ký tự đó trong chuổi 
+nếu tìm không có ký tự đó trong chuổi sẽ in ra là -1
+console.log(myString.lastIndexOf('JS', 6));
+dấu , sau chữ JS là quy định cho vị trí bắt đầu tìm kiếm ký tự 
+3. Cut String : DÙNG SLICE
+4. Replace : DÙNG ĐỂ GHI ĐÈ 
+5. Convert to upper case
+6. Convert to lower case
+7. Trim : dùng để xử lý dữ liệu nhập vào của người dùng giúp loại bỏ khoảng trắng thừa ở hai đầu 
+8. Split : dùng để cắt một chuổi thành một array  gọi đến và tím điểm chung để tách ra ok
+console.log(languages.split(', '));
+
+9. Get a character by index : lấy một ký tự bởi một kí tự cho trước 
+Đối tượng Number
+Đối tượng Number trong Javascript là đối tượng giúp chúng ta định nghĩa số và làm việc với số. Chúng ta thường sử dụng các phương thức sau của đối tượng Number khi làm việc với số trong Javascript:
+
+Phương thức	Vai trò
+Number.isFinite()	Xác định xem giá trị đã cho có phải là số hữu hạn hay không. Trả về boolean
+Number.isInteger()	Xác định xem giá trị đã cho có phải là số nguyên hay không. Trả về boolean
+Number.parseFloat()	Chuyển đổi chuỗi đã cho thành một số dấu phẩy động
+Number.parseInt()	Chuyển đổi chuỗi đã cho thành một số nguyên
+Number.prototype.toFixed()	Chuyển đổi và trả về chuỗi đại diện cho số đã cho, có số chữ số chính xác sau dấu thập phân
+Number.prototype.toString()	Chuyển đổi và trả về số đã cho dưới dạng chuỗi

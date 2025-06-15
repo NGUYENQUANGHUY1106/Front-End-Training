@@ -1,0 +1,42 @@
+function writeLog(message)
+{
+    console.log(message);
+}
+message xuất hiện ở tra hàm gọi là tham số
+writeLog("Text Mesage");
+khi gọi tới function và truyền vào một giá trị sẽ gọi là đối số 
+ KIỂU DỮ LIỆU 
+ ARGUMENTS
+
+ for (var param of arguments)
+{
+    log.console(param)
+}
+arguments là một array 
+lần đầu chạy lấy elements gán cho param và chạy vào đoạn code ở trong đó và in ra param chạy đến hết rồi vòng ngược lại 
+chỉ chạy số lần bằng với số phần tử có trong mảng arguments\
+=======
+khi có hai function trùng tên thì function định nghĩa sau sẽ ghi đè function trước 
+
+///=========================///
+Các Loại function
+
+1.Declaration function 
+ định nghĩa bằng từ khóa function không bắt buộc phải đặt tên chỉ là đặt tên để có thể xem function đó làm nhiệm vụ gì 
+ vd
+ function showMessage()
+ {
+
+ }
+2.Expression function
+ sẽ được gán cho một biến dạng callback object có thể đặt tên hoặc không 
+vd 
+ var showMessage2 = function()
+ {
+
+ }
+ // hosting sẽ giúp Declaration function sẽ được gọi trước khi 
+ // được định nghĩa
+ ==////////////////////////////==////
+ KIỂU DỮ LIỆU CHUỖI STRING
+ 

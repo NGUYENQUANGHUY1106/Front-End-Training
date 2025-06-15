@@ -1,0 +1,8 @@
+MẢNG TRONG JAVASCRIPT - ARRAY 
+ 1. Tạo mảng 
+   -Cách Tạo
+   - Sử dụng cách nào ?  tại sao  ?
+   - Kiểm tra data type ?
+2 . Truy Xuất Mảng 
+    - Độ Dài mảng 
+    - lấy phần tử theo index

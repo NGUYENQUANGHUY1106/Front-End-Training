@@ -1,0 +1,8 @@
+Kiểm số number trong javascripts 
+1. tạo giá trị number
+- các cách tạo 
+- dùng cách nào ? tại sao ?
+- kiểm tra data type
+2. làm việc với number
+- To STRING chuyển đổi từ number sang String
+- To Fiexd làm tròn số làm tròn số thập phân 
