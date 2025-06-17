@@ -6,3 +6,14 @@ MẢNG TRONG JAVASCRIPT - ARRAY
 2 . Truy Xuất Mảng 
     - Độ Dài mảng 
     - lấy phần tử theo index
+
+    /// CÁC CÁCH LÀM VIỆC VỚI ARRAY 
+    1. to String
+    2. Join 
+    3.Pop
+    4.Push
+    5.Shift
+    6.Unshift
+    7.Splicing
+    8.Concat
+    9.Slicing
