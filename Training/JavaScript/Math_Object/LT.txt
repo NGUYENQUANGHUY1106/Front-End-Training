@@ -1,0 +1,9 @@
+Math object 
+1.Math.PI
+2.Math.round()
+3.Math.abs()
+4.Math.ceil()
+5.Math.floor()
+6.Math.random()
+7.Math.min()
+8.Math.max()
