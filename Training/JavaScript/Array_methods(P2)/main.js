@@ -70,6 +70,7 @@ console.log(isFind);
 
 var isFilter = courses.filter(function(course, index)
 {
+  console.log(course);
     console.log(index);
     return course.coin === 0 ;
 });
