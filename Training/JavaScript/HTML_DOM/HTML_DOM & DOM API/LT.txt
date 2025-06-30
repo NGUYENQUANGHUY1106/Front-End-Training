@@ -1,0 +1,7 @@
+// Javascript
+/// HTML DOM là quy chuẩn của w3c đưa ra 
+// DOM API cung cấp bộ công cụ giúp chúng ta chọc vào được HTML DOM
+// DOM  không phải của js 
+Javascript bản thân không có DOM nma khi chạy trên Brower thì có DOM bơi vì bản chất thk Brower có DOM có thể chạy ở  : Brower | Server (NodeJS);
+Brower : HTML cần access -> DOM -> DOM API -> WEB API
+// API : Applicatioin programming interface
