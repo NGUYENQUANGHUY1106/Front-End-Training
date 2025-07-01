@@ -55,3 +55,47 @@ console.log(document.forms['form-2']);
 
 console.log(document.anchors);
 
+
+
+///===============PHẦN 2 =============//
+var test =  document.querySelector('.heading');
+
+console.log(test);
+
+
+var listItemNodes = 
+    document.querySelectorAll('.box-1 li');
+
+
+    console.log(listItemNodes);
+
+// CÁCH HAI
+// công việc 1 : sử dụng tới boxNode
+// công việc 2 sử dinjg tới các li elements
+// ;à con của `.box-1`
+var boxNode = document.querySelector('.box-1');
+console.log(boxNode);
+console.log(boxNode.querySelectorAll('li'));
+console.log(boxNode.getElementsByTagName('p'));
+
+
+//// ==================== Phần 3 ====///////////////
+
+// Ôn tập 
+/**
+ *1.getElementById 
+ *2.getElementByClassName
+ 3.getElementByTagName
+ 4.querySelector
+ 5.querySelectorAll
+  
+ Chỉ có số 1, 4 là sẽ trả về Element
+
+ 6. HTML collection
+
+ 7.document.write : nếu file js nằm ở đâu thì vị trí của document.write sẽ nằm ở đó 
+ nếu sử dụng document.write nay sau khi chạy xong nằm ở sau html  thì sẽ ghi đè lại tất cả trang web 
+ */
+
+
+
