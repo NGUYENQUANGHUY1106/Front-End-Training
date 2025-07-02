@@ -29,3 +29,6 @@ console.log(headingElement.innerText);
  console.log(headingElement.textContent);
 
  headingElement.innerText = '<i>New Heading</i>'
+
+ //inner text khi nhấn nút enter => br
+ // text Contet
