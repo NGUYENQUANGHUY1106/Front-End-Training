@@ -1,0 +1,26 @@
+/**
+ *                          → Promise ←
+ *
+ * → Promise là một khái niệm sinh ra để xử lý những thao tác bất đồng bộ. Trước khi có Promise chúng ta sẽ sử dụng Callback, 
+ * và nó sẽ xảy ra một vấn đề là Callback Hell, code bị rối rắm, khó hiểu, từ đó sẽ sử dụng Promise.
+ * 
+ * → Để tạo ra một Promise thì sẽ sử dụng new Promise(), trong Promise constructor chúng ta truyền vào executor function 2 
+ * tham số: resolve, reject dạng hàm. resolve() sẽ gọi khi thao tác xử lý thành công, reject() sẽ gọi khi thao tác thất bại.
+ * 
+ * → Trong Promise, chúng ta sẽ sử dụng then(), catch(), finally(). then() sẽ gọi khi promise đang resolve(), catch() sẽ gọi 
+ * khi promise đang reject(), finally() sẽ gọi khi promise đang resolve hoặc reject().
+ * 
+ * - Sync: làm việc đồng bộ
+ * - Async: làm việc bất đồng bộ – eg: Call API, fetch, setTimeout, setInterval, XMLHttpRequest, file reading, Request 
+ * animation frame.. to control flow we can use Promise, callback, async/await
+ */
+
+// Promise : chứa giá trị tương lai của hoạt động không đồng bộ 
+// - Sync : đồng bộ : thường nào viết trước chạy trc in sau chạy sau
+// - Async : bất đồng bộ :
+// các hàm bất đồng bộ  setTimeout , setInterval ,
+// file reading ,fetch , XMLHttpRquest , request animation
+
+// nếu resolve (thành công) được gọi  ==> sẽ gọi .then()
+// nếu reject ( thất bại) được gọi ==> sẽ gọi .catch()
+// nếu thành công hoặc thất bại thì đều gọi đến .finally()
