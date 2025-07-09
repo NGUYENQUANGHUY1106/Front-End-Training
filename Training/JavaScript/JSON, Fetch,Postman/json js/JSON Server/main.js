@@ -59,7 +59,7 @@ function getCourese(callback) {
       callback(data);
     });
 }
-
+// hiển thị thông tin ở API ra 
 function renderCourses(courses) {
   var html = courses.map(function (course) {
     return `
@@ -77,7 +77,7 @@ function renderCourses(courses) {
   });
   listCoursesBlock.innerHTML = html.join("");
 }
-
+// thêm khóa học 
 function createCourses(data, callback) {
   var options = {
     method: "POST",
@@ -89,6 +89,8 @@ function createCourses(data, callback) {
     })
     .then(callback);
 }
+
+// xóa khóa học 
 function deleteCourses(id) {
   var options = {
     method: "DELETE",
@@ -108,6 +110,8 @@ function deleteCourses(id) {
       }
     });
 }
+
+// cập nhật khóa học 
 var idCourses = null;
 function editCourses(id, name, description) {
   console.log(id, name, description);
@@ -118,7 +122,7 @@ function editCourses(id, name, description) {
   var btn_create = document.getElementById("create");
   btn_create.innerText = "Update"; 
 }
-
+// form thêm khóa học
 function hadleCreateForm() {
   var btn_create = document.getElementById("create");
   console.log(btn_create);
@@ -135,13 +139,7 @@ function hadleCreateForm() {
       name: name,
       description: description,
     };
-    createCourses(formData, function () {
-      getCourese(function (courses) {
-        renderCourses(courses);
-      });
-    });
-  };
-
+    // update
   if(idCourses)
   {
     var updateData = {
@@ -155,7 +153,17 @@ function hadleCreateForm() {
       clearInput();
       btn_create.innerText = 'Create';
     })
+  } else
+  {
+    createCourses(formData, function () {
+      getCourese(function (courses) {
+        renderCourses(courses);
+      });
+    });
+  };
+
   }
+ 
 }
 
 function updateCourses(id,data,callback)

@@ -2,7 +2,7 @@
   "courses": [
     {
       "id": "1",
-      "name": "SQL ",
+      "name": "SQL 1234",
       "description": "Ok"
     },
     {
@@ -28,6 +28,11 @@
     {
       "id": "c078",
       "name": "Trần Huỳnh Thiên Trang xinh gais ",
+      "description": "hêllo everyone"
+    },
+    {
+      "id": "90d8",
+      "name": "bẽm",
       "description": "hêllo everyone"
     }
   ]
