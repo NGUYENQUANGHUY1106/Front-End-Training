@@ -1,0 +1,1 @@
+à một tính năng của ES6 (EcmaScript 2015) giúp việc khai báo và làm việc với các đối tượng trở nên ngắn gọn và dễ dàng hơn.

@@ -30,7 +30,7 @@ html {
 }
 
 .player.playing .icon-pause {
-  display: inline-block;
+  display: inline-block
 }
 
 .player.playing .icon-play {

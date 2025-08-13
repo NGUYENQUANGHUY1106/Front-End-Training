@@ -1,0 +1,18 @@
+SPA - Single-Page Application : ứng dụng 1 trang 
+MPA - Multi-Page Application : ứng dụng nhiều trang
+-- ReactJS lf 1 trong những thư viện tạo ra SPA
+-- Các "ông lớn" sử dụng SPA : Google , Facebook , Twtter
+-- các SPA khác : F8 . shoppe , 30 Shine , chotot , zingmp3
+========= sự khác biệt ====
+SPA -> CSR
+ được cho là cách tiếp cận hiện đại hơn
+  không yêu cầu tài lại trang trong quá trình sử dụng
+MPA -> SSR
+ cách tiếp cận cổ điển hơn
+ Tải lại trang trong quá trình sử dụng  (click vào đường link , chuyển sang)
+ Phụ thuộc vào JS 
+ SPA phụ thuộc vào JS
+ MPA có thể không cần JS
+
+ chọn SPA hay MPA 
+  không có thứ gì luôn hoàn hảo trong mọi trường hợp

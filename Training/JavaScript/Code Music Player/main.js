@@ -102,6 +102,7 @@ const app = {
       iterations: Infinity,
     });
     cdThumbAnimate.pause();
+    
     document.onscroll = function () {
       const scrollTop = window.scrollY || document.documentElement.scrollTop;
       if (scrollTop) {
