@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/babel">
+      const list_items = [
+        {
+          title: "Xây dựng website với ReactJS",
+
+          desc: "Học cách xây dựng ứng dụng web hiện đại sử dụng thư viện ReactJS. Từ cơ bản đến nâng cao, kèm theo thực hành và dự án thực tế.",
+
+          published: "19/07/2025",
+
+          image: "https://files.fullstack.edu.vn/f8-prod/courses/13/13.png",
+        },
+
+        {
+          title: "Lập trình HTML, CSS từ cơ bản đến nâng cao",
+
+          desc: "Nắm vững kiến thức HTML và CSS để tạo giao diện web đẹp, chuẩn responsive và dễ bảo trì.",
+
+          published: "19/06/2025",
+
+          image: "https://files.fullstack.edu.vn/f8-prod/courses/2.png",
+        },
+
+        {
+          title: "Responsive Web Design",
+
+          desc: "Tối ưu website cho nhiều thiết bị với kỹ thuật responsive design: media query, flexbox, grid, v.v.",
+
+          published: "05/07/2025",
+
+          image: "https://files.fullstack.edu.vn/f8-prod/courses/3.png",
+        },
+      ];
+      function PostItem() {
+        return (
+          list_items.map((value, index) => (
+          <React.Fragment >
+            <img src={value.image} alt="" />
+            <h2>{value.title}</h2>
+            <p>{value.desc}</p>
+            <p>{value.published}</p>
+          </React.Fragment>
+        ))
+        )
+      }
+
+      const app = (
+        <div className="Post-List">
+          <PostItem />
+        </div>
+      );
+      ReactDOM.render(app,document.getElementById('app'));
+    </script>
+  </body>
+</html>

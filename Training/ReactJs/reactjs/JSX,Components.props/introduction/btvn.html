@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      const course = [
+        {
+          name: "HTMl,CSS",
+        },
+        {
+          name: "Reponsive web design",
+        },
+        {
+          name: "ReactJS",
+        },
+      ];
+      const ul = (
+        <ul>
+          {
+            course.map((value, index) => (
+              React.createElement("li", {key :index}, value.name)
+            ))
+            //    course.map((value,index) =>
+            //    (
+            //     <li key ={index}>{value.name}</li>
+            //    ))
+          }
+        </ul>
+      );
+
+      ReactDOM.render(ul, document.getElementById("root"));
+    </script>
+  </body>
+</html>
+<!-- // return chỉ vào vào callback ko trả ra JSX -->
+<!-- Khi muốn viết code JSX cùng code HTML thì phải đặt đoạn code JSX trong cặp {}. Nên cú pháp đúng phải là style={{ color: 'red' }}. -->

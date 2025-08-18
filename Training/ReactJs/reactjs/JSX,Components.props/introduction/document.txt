@@ -1,0 +1,5 @@
+JSX --> Javascript XML : đặc trưng của thẻ mở và thẻ đóng 
+JSX ? Live Demo : https://bit.ly/2VOIMN7
+JSX không phải là HTML
+Cần có Javascript,Bable để dùng JSX 
+JSX và React-DOM
