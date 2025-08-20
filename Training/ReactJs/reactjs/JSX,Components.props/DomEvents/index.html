@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .btn
+      {
+        text-decoration: none;
+        color: #e6d9d9;
+        background-color: red;
+        padding: 10px;
+        border-radius: 20px;
+        font-weight: 500;
+        cursor: pointer;
+         box-shadow: 0px 0px 10px 10px #ccc;
+      }
+    </style>
     <script
       src="https://unpkg.com/react@17/umd/react.development.js"
       crossorigin
@@ -16,20 +29,9 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="text/babel">
-      function App() {
-        return (
-          <div id="wrapper">
-            <button 
-                onClick={() => console.log(Math.random())}
-            >
-                Click Me
-            </button>
-          </div>
-        );
-      }
-
-      ReactDOM.render(<App />, document.getElementById("root"));
-    </script>
+    <script
+      type="text/babel"
+      src="/Training/ReactJs/reactjs/JSX,Components.props/DomEvents/main.js"
+    ></script>
   </body>
 </html>
