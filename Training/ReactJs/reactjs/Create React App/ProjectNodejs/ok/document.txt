@@ -1,0 +1,10 @@
+/**
+ * Webpack module hóa ứng dụng FE quản lý file hiệu quả 
+ * tối ưu file lại khi dely lên Production
+ * react-webpack # thư mục gốc
+    | src # thư mục chứa source code chính
+        | components # thư mục chứa components
+        | index.js # File khởi tạo, render App vào #root
+    | public
+        | index.html # HTML page, nơi chứa #root element
+ */
