@@ -23,3 +23,12 @@ Lưu ý :
     Luôn bật development server (npm start || yarn start )
 câu lệnh tạo một create-react-app npx và nodejs
 npx create-react-app tên app
+
+
+///  cấu trúc thư mục 
+node_modules : chứa các thư viện  được cài đặt sử dụng 
+public : tất cả các file có thể truy cập vào nó qua trình duyệt 
+src : chứa source code 
+.gitignore : quy định những thư mục cụ thể nào đó được git bỏ qua khi commit lên server 
+// build triển khai cho người dùng cuối 
+index.js entry point 

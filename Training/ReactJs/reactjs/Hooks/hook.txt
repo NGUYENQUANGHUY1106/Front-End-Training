@@ -1,0 +1,28 @@
+Hooks là gì  : là gắn vào hay móc vào trong js gọi là hàm 
+Hooks là method hàm được  viết và cung cáp bơi reactjs  mỗi hàm có tính năng và trường hợp cụ thể 
+Hooks dùng cho function component 
+1.Chỉ dùng cho function component
+
+2.Component đơn giản và trở nên dễ hiểu
+
+Không bị chia logic ra như methods trong lifecycle của Class Component
+
+Không cần sử dụng "this"
+
+3.Sử dụng Hooks khi nào?
+
+Dự án mới ⇒ Hooks
+
+Dự án cũ
+
+Component mới ⇒ Function component + Hooks
+
+Component cũ ⇒ Giữ nguyên, có thời gian tối ưu sau
+
+Logic nghiệp vụ cần sử dụng các tính chất của OOP ⇒ Class component
+
+Người mới nên bắt đầu với Function hay Class component?
+
+Có kết hợp sử dụng Function component & Class component được không?
+
+Được
