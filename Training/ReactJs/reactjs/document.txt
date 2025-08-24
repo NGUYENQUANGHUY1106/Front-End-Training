@@ -1,0 +1,25 @@
+NPM
+    Project scope :  cài thư viện vào dự án của các bạn
+         npm install react react-dom --save => dependencies(sự phụ thuộc)
+
+         npm i --save-dev react react-dom => dev dependencies
+
+         // cách xóa thư viện khỏi dự án 
+         npm uninstall react react-dom  
+    Global scope  : cài vào cái máy tính của các bạn 
+         khi dự án ko bị phục thuộc vào thư viện đó 
+         npm i --global create-react-app
+         npm i-g create-react-app
+         cái vào máy  User để cho cả cái máy tính sử dụng được 
+
+         để gỡ 
+         npm uninstall -g create-react-app
+NPX : Node => NPM,NPX
+    Tại sao dùng NPX : ko phải cài những thư viện lên máy 
+    Gặp lỗi khi : npx create-react-app tiktok
+YARN & NPM : công cụ quản lý gói 
+YARN install
+Lưu ý :
+    Luôn bật development server (npm start || yarn start )
+câu lệnh tạo một create-react-app npx và nodejs
+npx create-react-app tên app
